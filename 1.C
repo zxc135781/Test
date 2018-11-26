@@ -10,3 +10,5 @@ void main( void )
   Init_T1();
   Init_LED();
 }
+#pragma vector = T1_VECTOR
+  interrupt void T1_INT(void){
